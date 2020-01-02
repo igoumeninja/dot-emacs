@@ -494,6 +494,7 @@ Returns list of properties that still must be filled in"
 #+END_SRC
 * yasnippet
 
+
 #+BEGIN_SRC emacs-lisp
 (add-to-list 'load-path
               "~/Documents/02.GetIn/yasnippets/")
