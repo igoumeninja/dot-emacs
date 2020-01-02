@@ -7,11 +7,13 @@
   (dired-filename . "/home/aris/Code/oF_apps/recover/drawingApp/src"))
  ("/home/aris/Code/oF_apps/recover/drawingApp/src/"
   (dired-filename . "/home/aris/Code/oF_apps/recover/drawingApp/src/ofApp.cpp"))
- ("/home/aris/.emacs.d/personal/aris.org" . 15578)
- ("/home/aris/Code/oF_apps/recover/drawingApp/src/ofApp.cpp" . 538)
- ("/home/aris/.emacs.d/savefile/recentf" . 7462)
+ ("/home/aris/Code/oF_apps/recover/drawingApp/src/ofApp.cpp" . 514)
+ ("/home/aris/.emacs.d/personal/aris.org" . 17830)
  ("/home/aris/.emacs.d/personal/"
   (dired-filename . "/home/aris/.emacs.d/personal/aris.org"))
+ ("/home/aris/.emacs.d/"
+  (dired-filename . "/home/aris/.emacs.d/init.el"))
+ ("/home/aris/.emacs.d/savefile/recentf" . 7462)
  ("/home/aris/Documents/02.GetIn/org-files/xp.org" . 506648)
  ("/home/aris/Documents/02.GetIn/org-files/sc.org" . 361)
  ("/home/aris/Documents/02.GetIn/org-files/chipis.org" . 13168)
@@ -19,8 +21,6 @@
   (dired-filename . "/home/aris/Documents/02.GetIn/org-files/body-health.org"))
  ("/home/aris/.emacs.d/elpa/"
   (dired-filename . "/home/aris/.emacs.d/elpa/ace-window-20191022.1203"))
- ("/home/aris/.emacs.d/"
-  (dired-filename . "/home/aris/.emacs.d/personal"))
  ("/home/aris/Software/emacs_20200102/"
   (dired-filename . "/home/aris/Software/emacs_20200102/personal"))
  ("/home/aris/Code/oF_apps/recover/drawingApp/bin/"
@@ -56,8 +56,6 @@
  ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/apps/myApps/emptyExample/" . 632)
  ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/apps/myApps/emptyExample/config.make" . 5317)
  ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/apps/myApps/emptyExample/Makefile" . 237)
- ("/home/aris/.emacs.d/.github/"
-  (dired-filename . "/home/aris/.emacs.d/.github/stale.yml"))
  ("/home/aris/.emacs.d/el-get/.loaddefs.el" . 9100)
  ("/home/aris/.emacs.d/elpa/use-package-el-get-20180131.505/use-package-el-get-autoloads.el" . 471)
  ("/home/aris/.emacs.d/elpa/req-package-20180122.500/req-package-autoloads.el" . 1318)
