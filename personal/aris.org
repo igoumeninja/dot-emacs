@@ -491,7 +491,6 @@ Returns list of properties that still must be filled in"
 * iedit
 #+BEGIN_SRC emacs-lisp
 (define-key global-map (kbd "C-c ;") 'iedit-mode)
-
 #+END_SRC
 * yasnippet
 
