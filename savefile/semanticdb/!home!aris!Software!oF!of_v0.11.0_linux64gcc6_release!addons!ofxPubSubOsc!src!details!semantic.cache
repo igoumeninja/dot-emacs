@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags nil
+      :file "ofxPubSubOscSettings.h"
+      :pointmax 649
+      :fsize 648
+      :lastmodtime '(24072 58879 0 0)
+      :unmatched-syntax nil))
+  :file "!home!aris!Software!oF!of_v0.11.0_linux64gcc6_release!addons!ofxPubSubOsc!src!details!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

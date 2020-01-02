@@ -1,0 +1,5 @@
+((magit-commit nil)
+ (magit-notes nil)
+ (magit-push nil)
+ (magit-rebase nil)
+ (magit-submodule nil))

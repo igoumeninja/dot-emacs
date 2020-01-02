@@ -1,0 +1,35 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("ofMain.h" include nil nil [1 20])
+            ("ofxOscPublisher.h" include nil nil [21 49])
+            ("ofApp" type
+               (:superclasses 
+                  ( ("ofBaseApp" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [131 138])
+                    ("setup" function (:type "void") (reparse-symbol classsubparts) [143 530])
+                    ("update" function (:type "void") (reparse-symbol classsubparts) [540 750])
+                    ("draw" function (:type "void") (reparse-symbol classsubparts) [755 906])
+                    ("private" label nil (reparse-symbol classsubparts) [912 920])
+                    ("p" variable (:type ("ofPoint" type (:type "class") nil nil)) (reparse-symbol classsubparts) [925 935])
+                    ("m" variable (:type ("ofMesh" type (:type "class") nil nil)) (reparse-symbol classsubparts) [940 949]))                  
+                :type "class")
+                nil [98 952])
+            ("main" function (:type "int") nil [954 1035]))          
+      :file "ofApp.cpp"
+      :pointmax 1036
+      :fsize 1035
+      :lastmodtime '(24048 44540 0 0)
+      :unmatched-syntax nil))
+  :file "!home!aris!Software!oF!of_v0.11.0_linux64gcc6_release!addons!ofxPubSubOsc!02_1_ofxOscPublisherExample!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

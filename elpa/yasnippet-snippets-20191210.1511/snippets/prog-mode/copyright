@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: copyright
+# key: copy
+# --
+`comment-start`Copyright$0`comment-end`

@@ -1,0 +1,498 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("ofMain.h" include nil nil [1 20])
+            ("ofApp.h" include nil nil [21 39])
+            ("ofAppGlutWindow.h" include nil nil [40 68])
+            ("main" function (:type "int") nil [70 465]))          
+      :file "main.cpp"
+      :pointmax 466
+      :fsize 465
+      :lastmodtime '(24062 28925 56020 313000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("ofMain.h" include nil nil [15 34])
+            ("ofxOsc.h" include nil nil [35 54])
+            ("ofSketch.h" include nil nil [55 76])
+            ("vector" include (:system-flag t) nil [77 94])
+            ("ofxGui.h" include nil nil [95 114])
+            ("MAX_SKETCHES" variable (:constant-flag t) nil [124 136])
+            ("MAX_CIRCLES" variable (:constant-flag t) nil [151 162])
+            ("MAX_MATRIX" variable (:constant-flag t) nil [178 188])
+            ("PORTlisten" variable (:constant-flag t) nil [202 212])
+            ("NUM_MSG_STRINGS" variable (:constant-flag t) nil [229 244])
+            ("ofApp" type
+               (:superclasses 
+                  ( ("ofBaseApp" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [284 291])
+                    ("setup" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [296 309])
+                    ("update" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [312 326])
+                    ("draw" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [329 341])
+                    ("keyPressed" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("key" variable (:type "int") (reparse-symbol arg-sub-list) [363 371]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [347 372])
+                    ("keyReleased" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("key" variable (:type "int") (reparse-symbol arg-sub-list) [392 400]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [375 401])
+                    ("mouseMoved" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [420 426])
+                            ("y" variable (:type "int") (reparse-symbol arg-sub-list) [427 434]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [404 435])
+                    ("mouseDragged" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [456 462])
+                            ("y" variable (:type "int") (reparse-symbol arg-sub-list) [463 469])
+                            ("button" variable (:type "int") (reparse-symbol arg-sub-list) [470 481]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [438 482])
+                    ("mousePressed" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [503 509])
+                            ("y" variable (:type "int") (reparse-symbol arg-sub-list) [510 516])
+                            ("button" variable (:type "int") (reparse-symbol arg-sub-list) [517 528]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [485 529])
+                    ("mouseReleased" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [551 557])
+                            ("y" variable (:type "int") (reparse-symbol arg-sub-list) [558 564])
+                            ("button" variable (:type "int") (reparse-symbol arg-sub-list) [565 576]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [532 577])
+                    ("resized" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("w" variable (:type "int") (reparse-symbol arg-sub-list) [593 599])
+                            ("h" variable (:type "int") (reparse-symbol arg-sub-list) [600 606]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [580 607])
+                    ("seed1" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dotSize" variable (:type "float") (reparse-symbol arg-sub-list) [626 640])
+                            ("angle" variable (:type "float") (reparse-symbol arg-sub-list) [641 653])
+                            ("x" variable (:type "float") (reparse-symbol arg-sub-list) [654 662])
+                            ("y" variable (:type "float") (reparse-symbol arg-sub-list) [663 671]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [615 672])
+                    ("seed2" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("dotSize" variable (:type "float") (reparse-symbol arg-sub-list) [686 700])
+                            ("angle" variable (:type "float") (reparse-symbol arg-sub-list) [701 713])
+                            ("x" variable (:type "float") (reparse-symbol arg-sub-list) [714 722])
+                            ("y" variable (:type "float") (reparse-symbol arg-sub-list) [723 731]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [675 732])
+                    ("bHide" variable (:type "bool") (reparse-symbol classsubparts) [737 748])
+                    ("elasticityMin" variable (:type ("ofParameter" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [752 785])
+                    ("elasticityMax" variable (:type ("ofParameter" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [788 821])
+                    ("dampingMin" variable (:type ("ofParameter" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [824 854])
+                    ("dampingMax" variable (:type ("ofParameter" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [857 887])
+                    ("radius" variable (:type ("ofParameter" type
+                         (:template-specifier 
+                            ( ("float" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [893 919])
+                    ("color" variable (:type ("ofParameter" type
+                         (:template-specifier 
+                            ( ("ofColor" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [922 949])
+                    ("center" variable (:type ("ofParameter" type
+                         (:template-specifier 
+                            ( ("glm::vec2" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [952 982])
+                    ("circleResolution" variable (:type ("ofParameter" type
+                         (:template-specifier 
+                            ( ("int" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [985 1019])
+                    ("filled" variable (:type ("ofParameter" type
+                         (:template-specifier 
+                            ( ("bool" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [1022 1047])
+                    ("twoCircles" variable (:type ("ofxButton" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1050 1071])
+                    ("ringButton" variable (:type ("ofxButton" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1074 1095])
+                    ("screenSize" variable (:type ("ofParameter" type
+                         (:template-specifier 
+                            ( ("string" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [1098 1129])
+                    ("gui" variable (:type ("ofxPanel" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1133 1146])
+                    ("baseNode" variable (:type ("ofNode" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1150 1166])
+                    ("childNode" variable (:type ("ofNode" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1169 1186])
+                    ("grandChildNode" variable (:type ("ofNode" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1189 1211])
+                    ("line" variable (:type ("ofPolyline" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1214 1230])
+                    ("cam" variable (:type ("ofEasyCam" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1233 1247])
+                    ("playVideo" variable (:type "int") (reparse-symbol classsubparts) [1292 1339])
+                    ("rVideo" variable (:type "int") (reparse-symbol classsubparts) [1292 1339])
+                    ("gVideo" variable (:type "int") (reparse-symbol classsubparts) [1292 1339])
+                    ("bVideo" variable (:type "int") (reparse-symbol classsubparts) [1292 1339])
+                    ("aVideo" variable (:type "int") (reparse-symbol classsubparts) [1292 1339])
+                    ("videoX" variable (:type "int") (reparse-symbol classsubparts) [1341 1374])
+                    ("videoY" variable (:type "int") (reparse-symbol classsubparts) [1341 1374])
+                    ("videoW" variable (:type "int") (reparse-symbol classsubparts) [1341 1374])
+                    ("videoH" variable (:type "int") (reparse-symbol classsubparts) [1341 1374])
+                    ("myVideo" variable
+                       (:pointer 1
+                        :type ("ofVideoPlayer" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1378 1403])
+                    ("playSpectro" variable (:type "int") (reparse-symbol classsubparts) [1446 1480])
+                    ("mirrorMode" variable (:type "int") (reparse-symbol classsubparts) [1446 1480])
+                    ("count" variable (:type "int") (reparse-symbol classsubparts) [1446 1480])
+                    ("spectroRed" variable (:type "float") (reparse-symbol classsubparts) [1482 1537])
+                    ("spectroGreen" variable (:type "float") (reparse-symbol classsubparts) [1482 1537])
+                    ("spectroBlue" variable (:type "float") (reparse-symbol classsubparts) [1482 1537])
+                    ("spectroAlpha" variable (:type "float") (reparse-symbol classsubparts) [1482 1537])
+                    ("textureRed" variable (:type "float") (reparse-symbol classsubparts) [1539 1630])
+                    ("textureGreen" variable (:type "float") (reparse-symbol classsubparts) [1539 1630])
+                    ("textureBlue" variable (:type "float") (reparse-symbol classsubparts) [1539 1630])
+                    ("textureAlpha" variable (:type "float") (reparse-symbol classsubparts) [1539 1630])
+                    ("reverseEllipse" variable (:type "float") (reparse-symbol classsubparts) [1539 1630])
+                    ("reverseTexture" variable (:type "float") (reparse-symbol classsubparts) [1539 1630])
+                    ("data" variable
+                       (:dereference 1
+                        :type "float")
+                        (reparse-symbol classsubparts) [1632 1649])
+                    ("amp" variable (:type "float") (reparse-symbol classsubparts) [1651 1712])
+                    ("freq" variable (:type "float") (reparse-symbol classsubparts) [1651 1712])
+                    ("loudness" variable (:type "float") (reparse-symbol classsubparts) [1651 1712])
+                    ("onset" variable (:type "float") (reparse-symbol classsubparts) [1651 1712])
+                    ("specCentroid" variable (:type "float") (reparse-symbol classsubparts) [1651 1712])
+                    ("specFlatness" variable (:type "float") (reparse-symbol classsubparts) [1651 1712])
+                    ("pamp" variable (:type "float") (reparse-symbol classsubparts) [1715 1782])
+                    ("pfreq" variable (:type "float") (reparse-symbol classsubparts) [1715 1782])
+                    ("ploudness" variable (:type "float") (reparse-symbol classsubparts) [1715 1782])
+                    ("ponset" variable (:type "float") (reparse-symbol classsubparts) [1715 1782])
+                    ("pspecCentroid" variable (:type "float") (reparse-symbol classsubparts) [1715 1782])
+                    ("pspecFlatness" variable (:type "float") (reparse-symbol classsubparts) [1715 1782])
+                    ("osc_sender" variable (:type ("ofxOscSender" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1849 1875])
+                    ("sketch" variable
+                       (:dereference 1
+                        :type ("ofSketch" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1877 1910])
+                    ("texScreen2" variable (:type ("ofTexture" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1948 1984])
+                    ("pixelTexture" variable (:type ("ofTexture" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1948 1984])
+                    ("feedbackSpeedX" variable (:type "float") (reparse-symbol classsubparts) [1986 2026])
+                    ("feedbackSpeedY" variable (:type "float") (reparse-symbol classsubparts) [1986 2026])
+                    ("feedbackView" variable (:type "int") (reparse-symbol classsubparts) [2028 2109])
+                    ("timeLine" variable (:type "int") (reparse-symbol classsubparts) [2028 2109])
+                    ("viewRotate" variable (:type "int") (reparse-symbol classsubparts) [2028 2109])
+                    ("view_fillBackground" variable (:type "int") (reparse-symbol classsubparts) [2028 2109])
+                    ("mirrorEffectCase" variable (:type "int") (reparse-symbol classsubparts) [2028 2109])
+                    ("mirrorEffect" variable (:type "bool") (reparse-symbol classsubparts) [2112 2214])
+                    ("noiseEffect" variable (:type "bool") (reparse-symbol classsubparts) [2112 2214])
+                    ("mirrowEffect1" variable (:type "bool") (reparse-symbol classsubparts) [2112 2214])
+                    ("mirrowEffect2" variable (:type "bool") (reparse-symbol classsubparts) [2112 2214])
+                    ("mirrowEffect3" variable (:type "bool") (reparse-symbol classsubparts) [2112 2214])
+                    ("mirrowEffect4" variable (:type "bool") (reparse-symbol classsubparts) [2112 2214])
+                    ("memAlloc" variable (:type "bool") (reparse-symbol classsubparts) [2112 2214])
+                    ("texGray" variable (:type ("ofTexture" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2216 2235])
+                    ("texMirrow" variable (:type ("ofTexture" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2237 2259])
+                    ("w" variable (:type "int") (reparse-symbol classsubparts) [2262 2274])
+                    ("h" variable (:type "int") (reparse-symbol classsubparts) [2262 2274])
+                    ("colorPixels" variable
+                       (:pointer 1
+                        :type "unsigned char")
+                        (reparse-symbol classsubparts) [2277 2306])
+                    ("grayPixels" variable
+                       (:pointer 1
+                        :type "unsigned char")
+                        (reparse-symbol classsubparts) [2308 2336])
+                    ("colorAlphaPixels" variable
+                       (:pointer 1
+                        :type "unsigned char")
+                        (reparse-symbol classsubparts) [2338 2372])
+                    ("gridX" variable
+                       (:dereference 2
+                        :type "float")
+                        (reparse-symbol classsubparts) [2374 2443])
+                    ("gridY" variable
+                       (:dereference 2
+                        :type "float")
+                        (reparse-symbol classsubparts) [2374 2443])
+                    ("gridX3d" variable
+                       (:dereference 3
+                        :type "float")
+                        (reparse-symbol classsubparts) [2445 2587])
+                    ("gridY3d" variable
+                       (:dereference 3
+                        :type "float")
+                        (reparse-symbol classsubparts) [2445 2587])
+                    ("gridZ3d" variable
+                       (:dereference 3
+                        :type "float")
+                        (reparse-symbol classsubparts) [2445 2587])
+                    ("dotSize" variable (:type "float") (reparse-symbol classsubparts) [2613 2657])
+                    ("angleOffsetA" variable (:type "float") (reparse-symbol classsubparts) [2613 2657])
+                    ("angleOffsetB" variable (:type "float") (reparse-symbol classsubparts) [2613 2657])
+                    ("aBack" variable (:type "int") (reparse-symbol classsubparts) [2659 2693])
+                    ("rBack" variable (:type "int") (reparse-symbol classsubparts) [2659 2693])
+                    ("bBack" variable (:type "int") (reparse-symbol classsubparts) [2659 2693])
+                    ("gBack" variable (:type "int") (reparse-symbol classsubparts) [2659 2693])
+                    ("myFont11" variable (:type ("ofTrueTypeFont" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2733 2768])
+                    ("myFont350" variable (:type ("ofTrueTypeFont" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2733 2768])
+                    ("rConColor" variable (:type "int") (reparse-symbol classsubparts) [2808 2892])
+                    ("gConColor" variable (:type "int") (reparse-symbol classsubparts) [2808 2892])
+                    ("bConColor" variable (:type "int") (reparse-symbol classsubparts) [2808 2892])
+                    ("aConColor" variable (:type "int") (reparse-symbol classsubparts) [2808 2892])
+                    ("rDotColor" variable (:type "int") (reparse-symbol classsubparts) [2808 2892])
+                    ("gDotColor" variable (:type "int") (reparse-symbol classsubparts) [2808 2892])
+                    ("bDotColor" variable (:type "int") (reparse-symbol classsubparts) [2808 2892])
+                    ("aDotColor" variable (:type "int") (reparse-symbol classsubparts) [2808 2892])
+                    ("bounceXstart" variable (:type "int") (reparse-symbol classsubparts) [2894 2949])
+                    ("bounceYstart" variable (:type "int") (reparse-symbol classsubparts) [2894 2949])
+                    ("bounceXend" variable (:type "int") (reparse-symbol classsubparts) [2894 2949])
+                    ("bounceYend" variable (:type "int") (reparse-symbol classsubparts) [2894 2949])
+                    ("isMousePressed" variable (:type "bool") (reparse-symbol classsubparts) [2951 3023])
+                    ("slowMotion" variable (:type "bool") (reparse-symbol classsubparts) [2951 3023])
+                    ("viewParticles" variable (:type "bool") (reparse-symbol classsubparts) [2951 3023])
+                    ("iPadPush" variable (:type "bool") (reparse-symbol classsubparts) [2951 3023])
+                    ("pushParticles" variable (:type "bool") (reparse-symbol classsubparts) [2951 3023])
+                    ("timeStep" variable (:type "float") (reparse-symbol classsubparts) [3025 3054])
+                    ("pushX" variable (:type "float") (reparse-symbol classsubparts) [3025 3054])
+                    ("pushY" variable (:type "float") (reparse-symbol classsubparts) [3025 3054])
+                    ("lineOpacity" variable (:type "int") (reparse-symbol classsubparts) [3056 3086])
+                    ("pointOpacity" variable (:type "int") (reparse-symbol classsubparts) [3056 3086])
+                    ("particleNeighborhood" variable (:type "float") (reparse-symbol classsubparts) [3088 3134])
+                    ("particleRepulsion" variable (:type "float") (reparse-symbol classsubparts) [3088 3134])
+                    ("centerAttraction" variable (:type "float") (reparse-symbol classsubparts) [3136 3159])
+                    ("kParticles" variable (:type "int") (reparse-symbol classsubparts) [3161 3201])
+                    ("forceScale" variable (:type "int") (reparse-symbol classsubparts) [3161 3201])
+                    ("forceRadius" variable (:type "int") (reparse-symbol classsubparts) [3161 3201])
+                    ("image" variable
+                       (:dereference 1
+                        :type ("ofImage" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [3237 3258])
+                    ("viewSketchAutomato" variable (:type "bool") (reparse-symbol classsubparts) [3294 3318])
+                    ("numMouseSketches" variable (:type "float") (reparse-symbol classsubparts) [3320 3403])
+                    ("numSoundSketches" variable (:type "float") (reparse-symbol classsubparts) [3320 3403])
+                    ("mouseLines" variable (:type "float") (reparse-symbol classsubparts) [3320 3403])
+                    ("soundLines" variable (:type "float") (reparse-symbol classsubparts) [3320 3403])
+                    ("viewSoundChanels" variable (:type "float") (reparse-symbol classsubparts) [3320 3403])
+                    ("minSoundElasticity" variable (:type "float") (reparse-symbol classsubparts) [3405 3484])
+                    ("maxSoundElasticity" variable (:type "float") (reparse-symbol classsubparts) [3405 3484])
+                    ("minSoundDamping" variable (:type "float") (reparse-symbol classsubparts) [3405 3484])
+                    ("maxSoundDamping" variable (:type "float") (reparse-symbol classsubparts) [3405 3484])
+                    ("minMouseElasticity" variable (:type "float") (reparse-symbol classsubparts) [3486 3565])
+                    ("maxMouseElasticity" variable (:type "float") (reparse-symbol classsubparts) [3486 3565])
+                    ("minMouseDamping" variable (:type "float") (reparse-symbol classsubparts) [3486 3565])
+                    ("maxMouseDamping" variable (:type "float") (reparse-symbol classsubparts) [3486 3565])
+                    ("xSolo" variable (:type "float") (reparse-symbol classsubparts) [3567 3586])
+                    ("ySolo" variable (:type "float") (reparse-symbol classsubparts) [3567 3586])
+                    ("rSound" variable (:type "int") (reparse-symbol classsubparts) [3588 3624])
+                    ("gSound" variable (:type "int") (reparse-symbol classsubparts) [3588 3624])
+                    ("bSound" variable (:type "int") (reparse-symbol classsubparts) [3588 3624])
+                    ("aSound" variable (:type "int") (reparse-symbol classsubparts) [3588 3624])
+                    ("rSketch" variable (:type "int") (reparse-symbol classsubparts) [3626 3666])
+                    ("gSketch" variable (:type "int") (reparse-symbol classsubparts) [3626 3666])
+                    ("bSketch" variable (:type "int") (reparse-symbol classsubparts) [3626 3666])
+                    ("aSketch" variable (:type "int") (reparse-symbol classsubparts) [3626 3666])
+                    ("padX" variable (:type "int") (reparse-symbol classsubparts) [3668 3684])
+                    ("padY" variable (:type "int") (reparse-symbol classsubparts) [3668 3684])
+                    ("Yamp0" variable (:type "float") (reparse-symbol classsubparts) [3686 3747])
+                    ("Yamp1" variable (:type "float") (reparse-symbol classsubparts) [3686 3747])
+                    ("Yamp2" variable (:type "float") (reparse-symbol classsubparts) [3686 3747])
+                    ("Yamp3" variable (:type "float") (reparse-symbol classsubparts) [3686 3747])
+                    ("Yamp4" variable (:type "float") (reparse-symbol classsubparts) [3686 3747])
+                    ("Yamp5" variable (:type "float") (reparse-symbol classsubparts) [3686 3747])
+                    ("Yamp6" variable (:type "float") (reparse-symbol classsubparts) [3686 3747])
+                    ("Yamp7" variable (:type "float") (reparse-symbol classsubparts) [3686 3747])
+                    ("Xfreq0" variable (:type "float") (reparse-symbol classsubparts) [3749 3817])
+                    ("Xfreq1" variable (:type "float") (reparse-symbol classsubparts) [3749 3817])
+                    ("Xfreq2" variable (:type "float") (reparse-symbol classsubparts) [3749 3817])
+                    ("Xfreq3" variable (:type "float") (reparse-symbol classsubparts) [3749 3817])
+                    ("Xfreq4" variable (:type "float") (reparse-symbol classsubparts) [3749 3817])
+                    ("Xfreq5" variable (:type "float") (reparse-symbol classsubparts) [3749 3817])
+                    ("Xfreq6" variable (:type "float") (reparse-symbol classsubparts) [3749 3817])
+                    ("Xfreq7" variable (:type "float") (reparse-symbol classsubparts) [3749 3817])
+                    ("bSmooth" variable (:type "bool") (reparse-symbol classsubparts) [3819 3832])
+                    ("ampIn" variable (:type "float") (reparse-symbol classsubparts) [3834 3870])
+                    ("ampOut" variable (:type "float") (reparse-symbol classsubparts) [3834 3870])
+                    ("freqIn" variable (:type "float") (reparse-symbol classsubparts) [3834 3870])
+                    ("freqOut" variable (:type "float") (reparse-symbol classsubparts) [3834 3870])
+                    ("ampChan0" variable (:type "float") (reparse-symbol classsubparts) [3872 3917])
+                    ("ampChan1" variable (:type "float") (reparse-symbol classsubparts) [3872 3917])
+                    ("ampChan2" variable (:type "float") (reparse-symbol classsubparts) [3872 3917])
+                    ("ampChan3" variable (:type "float") (reparse-symbol classsubparts) [3872 3917])
+                    ("freqChan0" variable (:type "float") (reparse-symbol classsubparts) [3921 3970])
+                    ("freqChan1" variable (:type "float") (reparse-symbol classsubparts) [3921 3970])
+                    ("freqChan2" variable (:type "float") (reparse-symbol classsubparts) [3921 3970])
+                    ("freqChan3" variable (:type "float") (reparse-symbol classsubparts) [3921 3970])
+                    ("ampInLow" variable (:type "float") (reparse-symbol classsubparts) [3976 4024])
+                    ("ampOutLow" variable (:type "float") (reparse-symbol classsubparts) [3976 4024])
+                    ("ampInHigh" variable (:type "float") (reparse-symbol classsubparts) [3976 4024])
+                    ("ampOutHigh" variable (:type "float") (reparse-symbol classsubparts) [3976 4024])
+                    ("freqInLow" variable (:type "float") (reparse-symbol classsubparts) [4026 4080])
+                    ("freqOutLow" variable (:type "float") (reparse-symbol classsubparts) [4026 4080])
+                    ("freqInHigh" variable (:type "float") (reparse-symbol classsubparts) [4026 4080])
+                    ("freqOutHigh" variable (:type "float") (reparse-symbol classsubparts) [4026 4080])
+                    ("sketchPhrase" variable (:type "bool") (reparse-symbol classsubparts) [4082 4181])
+                    ("drawNow" variable (:type "bool") (reparse-symbol classsubparts) [4082 4181])
+                    ("drawWithMouse" variable (:type "bool") (reparse-symbol classsubparts) [4082 4181])
+                    ("rotate" variable (:type "bool") (reparse-symbol classsubparts) [4082 4181])
+                    ("viewCamera" variable (:type "bool") (reparse-symbol classsubparts) [4082 4181])
+                    ("viewBlob" variable (:type "bool") (reparse-symbol classsubparts) [4082 4181])
+                    ("viewDiff" variable (:type "bool") (reparse-symbol classsubparts) [4082 4181])
+                    ("soundEffectNoto" variable (:type "bool") (reparse-symbol classsubparts) [4082 4181])
+                    ("camera" variable (:type "bool") (reparse-symbol classsubparts) [4219 4231])
+                    ("texScreen" variable (:type ("ofTexture" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4329 4349])
+                    ("destruct" variable (:type "bool") (reparse-symbol classsubparts) [4351 4365])
+                    ("destructCase" variable (:type "int") (reparse-symbol classsubparts) [4367 4384])
+                    ("private" label nil (reparse-symbol classsubparts) [4391 4399])
+                    ("windowWidth" variable (:type "int") (reparse-symbol classsubparts) [4401 4431])
+                    ("windowHeight" variable (:type "int") (reparse-symbol classsubparts) [4401 4431])
+                    ("receiver" variable (:type ("ofxOscReceiver" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4434 4458])
+                    ("current_msg_string" variable (:type "int") (reparse-symbol classsubparts) [4460 4486])
+                    ("msg_strings" variable
+                       (:dereference 1
+                        :type ("string" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [4488 4526])
+                    ("timers" variable
+                       (:dereference 1
+                        :type "float")
+                        (reparse-symbol classsubparts) [4528 4560]))                  
+                :type "class")
+                nil [250 4565]))          
+      :file "ofApp.h"
+      :pointmax 4566
+      :fsize 4565
+      :lastmodtime '(24063 41375 278170 422000)
+      :unmatched-syntax '((symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2))
+      :lexical-table 
+        '(("PORTlisten" . ((number "12345" 215 . 220)))
+          ("MAX_SKETCHES" . ((number "2048" 138 . 142)))
+          ("MAX_CIRCLES" . ((number "1024" 165 . 169)))
+          ("NUM_MSG_STRINGS" . ((number "20" 246 . 248)))
+          ("MAX_MATRIX" . ((number "64" 191 . 193)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "ofSketch.h"
+      :fsize 1893
+      :lastmodtime '(24063 60057 494897 135000))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("ofApp.h" include nil nil [1 19])
+            ("setup" function
+               (:parent "ofApp"
+                :type "void")
+                nil [21 1644])
+            ("update" function
+               (:parent "ofApp"
+                :type "void")
+                nil [1645 1986])
+            ("draw" function
+               (:parent "ofApp"
+                :type "void")
+                nil [1988 2447])
+            ("keyPressed" function
+               (:parent "ofApp"
+                :arguments 
+                  ( ("key" variable (:type "int") (reparse-symbol arg-sub-list) [2472 2480]))                  
+                :type "void")
+                nil [2449 2868])
+            ("keyReleased" function
+               (:parent "ofApp"
+                :arguments 
+                  ( ("key" variable (:type "int") (reparse-symbol arg-sub-list) [2893 2901]))                  
+                :type "void")
+                nil [2869 2908])
+            ("mouseMoved" function
+               (:parent "ofApp"
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [2932 2938])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [2939 2946]))                  
+                :type "void")
+                nil [2909 2950])
+            ("mouseDragged" function
+               (:parent "ofApp"
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [2976 2982])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [2983 2989])
+                    ("button" variable (:type "int") (reparse-symbol arg-sub-list) [2990 3001]))                  
+                :type "void")
+                nil [2951 3008])
+            ("mousePressed" function
+               (:parent "ofApp"
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [3034 3040])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [3041 3047])
+                    ("button" variable (:type "int") (reparse-symbol arg-sub-list) [3048 3059]))                  
+                :type "void")
+                nil [3009 3107])
+            ("mouseReleased" function
+               (:parent "ofApp"
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [3134 3140])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [3141 3147])
+                    ("button" variable (:type "int") (reparse-symbol arg-sub-list) [3148 3159]))                  
+                :type "void")
+                nil [3108 3208])
+            ("resized" function
+               (:parent "ofApp"
+                :arguments 
+                  ( ("w" variable (:type "int") (reparse-symbol arg-sub-list) [3229 3235])
+                    ("h" variable (:type "int") (reparse-symbol arg-sub-list) [3236 3242]))                  
+                :type "void")
+                nil [3209 3249]))          
+      :file "ofApp.cpp"
+      :pointmax 3250
+      :fsize 3249
+      :lastmodtime '(24063 60823 257239 181000)
+      :unmatched-syntax nil))
+  :file "!home!aris!Code!oF_apps!mySketch!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

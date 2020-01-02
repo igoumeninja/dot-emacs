@@ -1,0 +1,73 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("ofMain.h" include nil nil [15 34])
+            ("Particle.h" include nil nil [36 57])
+            ("ofApp" type
+               (:superclasses 
+                  ( ("ofBaseApp" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [94 101])
+                    ("setup" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [104 117])
+                    ("update" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [120 134])
+                    ("draw" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [137 149])
+                    ("updateDrawMode" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [153 175])
+                    ("resetParticles" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [178 200])
+                    ("mousePressed" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [222 228])
+                            ("y" variable (:type "int") (reparse-symbol arg-sub-list) [229 235])
+                            ("button" variable (:type "int") (reparse-symbol arg-sub-list) [236 247]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [204 248])
+                    ("maxParticles" variable (:type "int") (reparse-symbol classsubparts) [252 269])
+                    ("drawMode" variable (:type "int") (reparse-symbol classsubparts) [272 285])
+                    ("bg_color" variable (:type ("ofColor" type (:type "class") nil nil)) (reparse-symbol classsubparts) [289 306])
+                    ("fbo_color" variable (:type ("ofColor" type (:type "class") nil nil)) (reparse-symbol classsubparts) [309 327])
+                    ("bUpdateDrawMode" variable (:type "bool") (reparse-symbol classsubparts) [331 352])
+                    ("bResetParticles" variable (:type "bool") (reparse-symbol classsubparts) [355 376])
+                    ("fbo" variable (:type ("ofFbo" type (:type "class") nil nil)) (reparse-symbol classsubparts) [380 390])
+                    ("pix" variable (:type ("ofPixels" type (:type "class") nil nil)) (reparse-symbol classsubparts) [393 406])
+                    ("particles" variable (:type ("vector" type
+                         (:template-specifier 
+                            ( ("Particle" type (:pointer 1) nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [410 440]))                  
+                :type "class")
+                nil [59 443]))          
+      :file "ofApp.h"
+      :pointmax 444
+      :fsize 443
+      :lastmodtime '(24059 31656 338463 88000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :file "Particle.h"
+      :fsize 419
+      :lastmodtime '(24059 31656 338463 88000)))
+  :file "!home!aris!Code!oF_apps!typoExample!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

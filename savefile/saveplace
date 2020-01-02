@@ -1,0 +1,297 @@
+;;; -*- coding: utf-8 -*-
+(("/home/aris/Code/oF_apps/"
+  (dired-filename . "/home/aris/Code/oF_apps/recover"))
+ ("/home/aris/Code/oF_apps/recover/"
+  (dired-filename . "/home/aris/Code/oF_apps/recover/drawingApp"))
+ ("/home/aris/Code/oF_apps/recover/drawingApp/"
+  (dired-filename . "/home/aris/Code/oF_apps/recover/drawingApp/src"))
+ ("/home/aris/Code/oF_apps/recover/drawingApp/src/"
+  (dired-filename . "/home/aris/Code/oF_apps/recover/drawingApp/src/ofApp.cpp"))
+ ("/home/aris/.emacs.d/personal/aris.org" . 15578)
+ ("/home/aris/Code/oF_apps/recover/drawingApp/src/ofApp.cpp" . 538)
+ ("/home/aris/.emacs.d/savefile/recentf" . 7462)
+ ("/home/aris/.emacs.d/personal/"
+  (dired-filename . "/home/aris/.emacs.d/personal/aris.org"))
+ ("/home/aris/Documents/02.GetIn/org-files/xp.org" . 506648)
+ ("/home/aris/Documents/02.GetIn/org-files/sc.org" . 361)
+ ("/home/aris/Documents/02.GetIn/org-files/chipis.org" . 13168)
+ ("/home/aris/Documents/02.GetIn/org-files/"
+  (dired-filename . "/home/aris/Documents/02.GetIn/org-files/body-health.org"))
+ ("/home/aris/.emacs.d/elpa/"
+  (dired-filename . "/home/aris/.emacs.d/elpa/ace-window-20191022.1203"))
+ ("/home/aris/.emacs.d/"
+  (dired-filename . "/home/aris/.emacs.d/personal"))
+ ("/home/aris/Software/emacs_20200102/"
+  (dired-filename . "/home/aris/Software/emacs_20200102/personal"))
+ ("/home/aris/Code/oF_apps/recover/drawingApp/bin/"
+  (dired-filename . "/home/aris/Code/oF_apps/recover/drawingApp/bin/drawingApp"))
+ ("/home/aris/Code/oF_apps/recover/drawingApp/src/ofApp.h" . 597)
+ ("/home/aris/Code/oF_apps/katerina/"
+  (dired-filename . "/home/aris/Code/oF_apps/katerina/controlApp"))
+ ("/home/aris/Code/oF_apps/katerina/controlApp/"
+  (dired-filename . "/home/aris/Code/oF_apps/katerina/controlApp/src"))
+ ("/home/aris/Code/oF_apps/katerina/controlApp/src/"
+  (dired-filename . "/home/aris/Code/oF_apps/katerina/controlApp/src/ofApp.cpp"))
+ ("/home/aris/Code/oF_apps/katerina/controlApp/src/ofApp.cpp" . 818)
+ ("/home/aris/.emacs.d/elpa/helm-20191231.824/helm-autoloads.el" . 34147)
+ ("/home/aris/.emacs.d/elpa/helm-core-20191223.1914/helm-core-autoloads.el" . 6801)
+ ("/home/aris/Code/oF_apps/katerina/drawingApp/" . 557)
+ ("/home/aris/Code/oF_apps/katerina/drawingApp/src/"
+  (dired-filename . "/home/aris/Code/oF_apps/katerina/drawingApp/src/ofApp.cpp"))
+ ("/home/aris/Code/oF_apps/katerina/drawingApp/src/ofApp.cpp" . 1005)
+ ("/home/aris/Code/"
+  (dired-filename . "/home/aris/Code/oF_apps"))
+ ("/home/aris/"
+  (dired-filename . "/home/aris/Software"))
+ ("/home/aris/Software/"
+  (dired-filename . "/home/aris/Software/oF"))
+ ("/home/aris/Software/oF/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/apps"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/apps/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/apps/myApps"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/apps/myApps/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/apps/myApps/emptyExample"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/apps/myApps/emptyExample/" . 632)
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/apps/myApps/emptyExample/config.make" . 5317)
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/apps/myApps/emptyExample/Makefile" . 237)
+ ("/home/aris/.emacs.d/.github/"
+  (dired-filename . "/home/aris/.emacs.d/.github/stale.yml"))
+ ("/home/aris/.emacs.d/el-get/.loaddefs.el" . 9100)
+ ("/home/aris/.emacs.d/elpa/use-package-el-get-20180131.505/use-package-el-get-autoloads.el" . 471)
+ ("/home/aris/.emacs.d/elpa/req-package-20180122.500/req-package-autoloads.el" . 1318)
+ ("/home/aris/.emacs.d/elpa/use-package-20191126.2034/use-package-autoloads.el" . 8166)
+ ("/home/aris/.emacs.d/elpa/bind-key-20191110.416/bind-key-autoloads.el" . 2562)
+ ("/home/aris/.emacs.d/elpa/log4e-20170401.1304/log4e-autoloads.el" . 676)
+ ("/home/aris/.emacs.d/elpa/company-20191223.11/company-autoloads.el" . 12212)
+ ("/home/aris/.emacs.d/ede-projects.el" . 86)
+ ("/home/aris/.emacs.d/elpa/yasnippet-snippets-20191210.1511/snippets/"
+  (dired-filename . "/home/aris/.emacs.d/elpa/yasnippet-snippets-20191210.1511/snippets/prog-mode"))
+ ("/home/aris/.emacs.d/elpa/yasnippet-snippets-20191210.1511/snippets/prog-mode/"
+  (dired-filename . "/home/aris/.emacs.d/elpa/yasnippet-snippets-20191210.1511/snippets/prog-mode/copyright"))
+ ("/home/aris/Code/oF_apps/recover/controlApp/"
+  (dired-filename . "/home/aris/Code/oF_apps/recover/controlApp/src"))
+ ("/home/aris/Code/oF_apps/recover/controlApp/src/"
+  (dired-filename . "/home/aris/Code/oF_apps/recover/controlApp/src/ofApp.cpp"))
+ ("/home/aris/Code/oF_apps/recover/controlApp/src/ofApp.cpp" . 1144)
+ ("/home/aris/.emacs.d/elpa/yasnippet-snippets-20191210.1511/snippets/prog-mode/commentblock" . 1156)
+ ("/home/aris/.emacs.d/elpa/yasnippet-snippets-20191210.1511/snippets/prog-mode/copyright" . 54)
+ ("/home/aris/.emacs.d/elpa/yasnippet-snippets-20191210.1511/snippets/prog-mode/comment" . 231)
+ ("/home/aris/Documents/02.GetIn/org-files/mb.org" . 7)
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/graphics"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc/02_1_ofxOscPublisherExample/src/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc/02_1_ofxOscPublisherExample/src/ofApp.cpp"))
+ ("/home/aris/Code/oF_apps/sketchGUI/"
+  (dired-filename . "/home/aris/Code/oF_apps/sketchGUI/src"))
+ ("/home/aris/Code/oF_apps/sketchGUI/src/ofApp.h" . 1130)
+ ("/home/aris/Code/oF_apps/sketchGUI/src/"
+  (dired-filename . "/home/aris/Code/oF_apps/sketchGUI/src/ofApp.cpp"))
+ ("/home/aris/Code/oF_apps/sketchGUI/src/ofApp.cpp" . 2946)
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc/01_1_ofxPublishOscSimpleExample"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc/01_1_ofxPublishOscSimpleExample/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc/01_1_ofxPublishOscSimpleExample/src"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc/01_1_ofxPublishOscSimpleExample/src/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc/01_1_ofxPublishOscSimpleExample/src/ofApp.cpp"))
+ ("/home/aris/Code/oF_apps/recover/controlApp/src/ofApp.h" . 828)
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc/src/details/Publisher/ofxOscPublishParameter.h" . 2611)
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc/src/details/Publisher/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc/src/details/Publisher/ofxOscPublisherStructs.h"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc/src/details/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc/src/details/ofxPubSubOscSettings.h"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc/02_1_ofxOscPublisherExample/src/ofApp.cpp" . 232)
+ ("/home/aris/Code/oF_apps/sketch/src/"
+  (dired-filename . "/home/aris/Code/oF_apps/sketch/src/liveApp.cpp"))
+ ("/home/aris/Code/oF_apps/sketch/src/liveApp.cpp" . 1571)
+ ("/home/aris/Code/oF_apps/typoExample/src/"
+  (dired-filename . "/home/aris/Code/oF_apps/typoExample/src/ofApp.h"))
+ ("/home/aris/Code/oF_apps/typoExample/"
+  (dired-filename . "/home/aris/Code/oF_apps/typoExample/src"))
+ ("/home/aris/Code/oF_apps/mySketch/"
+  (dired-filename . "/home/aris/Code/oF_apps/mySketch/src"))
+ ("/home/aris/Code/oF_apps/mySketch/src/"
+  (dired-filename . "/home/aris/Code/oF_apps/mySketch/src/ofApp.cpp"))
+ ("/home/aris/Documents/"
+  (dired-filename . "/home/aris/Documents/00.Personal"))
+ ("/home/" . 42)
+ ("/"
+  (dired-filename . "/swapfile"))
+ ("/home/aris/Sites/xoriopalio/archetypes/"
+  (dired-filename . "/home/aris/Sites/xoriopalio/archetypes/default.md"))
+ ("/home/aris/Sites/xoriopalio/"
+  (dired-filename . "/home/aris/Sites/xoriopalio/archetypes"))
+ ("/home/aris/Sites/"
+  (dired-filename . "/home/aris/Sites/xoriopalio"))
+ ("/home/aris/Desktop/"
+  (dired-filename . "/home/aris/Desktop/temp"))
+ ("/home/aris/Desktop/temp/"
+  (dired-filename . "/home/aris/Desktop/temp/test.cpp"))
+ ("/home/aris/Desktop/temp/test.cpp" . 127)
+ ("/home/aris/Code/oF_apps/recover/drawingApp/src/main.cpp" . 342)
+ ("/home/aris/Code/oF_apps/sketch/"
+  (dired-filename . "/home/aris/Code/oF_apps/sketch/src"))
+ ("/home/aris/Code/oF_apps/sketch/src/liveApp.h" . 234)
+ ("/home/aris/Code/oF_apps/katerina/drawingApp/obj/"
+  (dired-filename . "/home/aris/Code/oF_apps/katerina/drawingApp/obj/linux64"))
+ ("/home/aris/Desktop/temp/dotEmacs/auto-save-list/"
+  (dired-filename . "/home/aris/Desktop/temp/dotEmacs/auto-save-list/.saves-10341-chipis~"))
+ ("/home/aris/.bashrc" . 567)
+ ("/home/aris/.emacs.d/elpa/google-c-style-20180130.1736/google-c-style-autoloads.el" . 2493)
+ ("/home/aris/.emacs.d/elpa/flymake-cursor-20120322.1757/flymake-cursor-autoloads.el" . 902)
+ ("/home/aris/.emacs.d/elpa/flymake-google-cpplint-20140205.1325/flymake-google-cpplint-autoloads.el" . 652)
+ ("/home/aris/.emacs.d/elpa/flymake-easy-20140818.755/flymake-easy-autoloads.el" . 434)
+ ("/home/aris/.emacs.d/elpa/iedit-20190419.803/iedit-autoloads.el" . 3457)
+ ("/home/aris/.emacs.d/elpa/auto-complete-c-headers-20150912.323/auto-complete-c-headers-autoloads.el" . 581)
+ ("/home/aris/.emacs.d/elpa/auto-complete-20170125.245/auto-complete-autoloads.el" . 1924)
+ ("/home/aris/.emacs.d/elpa/popup-20160709.1429/popup-autoloads.el" . 392)
+ ("/home/aris/Code/oF_apps/typoGreekParticlesOscSendReceive/src/"
+  (dired-filename . "/home/aris/Code/oF_apps/typoGreekParticlesOscSendReceive/src/Particle.h"))
+ ("/home/aris/Code/oF_apps/typoGreekParticlesOscSendReceive/"
+  (dired-filename . "/home/aris/Code/oF_apps/typoGreekParticlesOscSendReceive/."))
+ ("/home/aris/.local/" . 217)
+ ("/home/aris/Code/oF_apps/katerina/drawingApp/bin/"
+  (dired-filename . "/home/aris/Code/oF_apps/katerina/drawingApp/bin/.."))
+ ("/home/aris/.emacs.d/elpa/auto-compile-20191020.1040/auto-compile-autoloads.el" . 4661)
+ ("/home/aris/.emacs.d/elpa/packed-20180318.1729/packed-autoloads.el" . 398)
+ ("/home/aris/Code/oF_apps/katerina/drawingApp/bin/drawingApp" . 4)
+ ("/home/aris/Code/oF_apps/typoGreekParticlesOscSendReceive/src/main.cpp" . 41)
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxWarp/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxWarp/example"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxWarp/example/src/" . 386)
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxWarp/example/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxWarp/example/bin"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxWarp/example/bin/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxWarp/example/bin/data"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxWarp/example/bin/data/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxWarp/example/bin/data/settings.json"))
+ ("/home/aris/Code/oF_apps/mappingProjectionWarp/src/ofApp.cpp" . 5213)
+ ("/home/aris/Code/oF_apps/mappingProjectionWarp/src/"
+  (dired-filename . "/home/aris/Code/oF_apps/mappingProjectionWarp/src/ofApp.cpp"))
+ ("/home/aris/Code/oF_apps/mappingProjectionWarp/"
+  (dired-filename . "/home/aris/Code/oF_apps/mappingProjectionWarp/bin"))
+ ("/home/aris/Code/oF_apps/mappingProjectionWarp/bin/"
+  (dired-filename . "/home/aris/Code/oF_apps/mappingProjectionWarp/bin/data"))
+ ("/home/aris/Code/oF_apps/mappingProjectionWarp/bin/data/"
+  (dired-filename . "/home/aris/Code/oF_apps/mappingProjectionWarp/bin/data/settings.json"))
+ ("/home/aris/Code/oF_apps/mappingProjectionWarp/bin/data/settings.json" . 2868)
+ ("/home/aris/.emacs.d/elpa/json-mode-20190123.422/json-mode-autoloads.el" . 2049)
+ ("/home/aris/.emacs.d/elpa/json-reformat-20160212.853/json-reformat-autoloads.el" . 702)
+ ("/home/aris/.emacs.d/elpa/json-snatcher-20150512.347/json-snatcher-autoloads.el" . 571)
+ ("/home/aris/Code/oF_apps/testAddons/addons.make" . 30)
+ ("/home/aris/Code/oF_apps/testAddons/"
+  (dired-filename . "/home/aris/Code/oF_apps/testAddons/src"))
+ ("/home/aris/Code/oF_apps/testAddons/src/"
+  (dired-filename . "/home/aris/Code/oF_apps/testAddons/src/ofApp.h"))
+ ("/home/aris/Code/oF_apps/testAddons/src/ofApp.h" . 79)
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxMLTK/simpleVisualizerExample/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxMLTK/simpleVisualizerExample/src"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxMLTK/simpleVisualizerExample/src/" . 402)
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxMLTK/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxMLTK/libs"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxMLTK/libs/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxMLTK/libs/ffmpeg"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxMLTK/libs/ffmpeg/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxMLTK/libs/ffmpeg/include"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxMLTK/libs/ffmpeg/include/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxMLTK/libs/ffmpeg/include/libavutil"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxMLTK/libs/ffmpeg/include/libavutil/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxMLTK/libs/ffmpeg/include/libavutil/time.h"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxMLTK/libs/ffmpeg/include/libavutil/time.h" . 1065)
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc/02_1_ofxOscPublisherExample/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc/02_1_ofxOscPublisherExample/src"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc/02_2_ofxOscSubscriberExample/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc/02_2_ofxOscSubscriberExample/src"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc/02_2_ofxOscSubscriberExample/src/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/addons/ofxPubSubOsc/02_2_ofxOscSubscriberExample/src/ofApp.cpp"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/graphics/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/graphics/rectangleAlignmentAndScalingExample"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/graphics/rectangleAlignmentAndScalingExample/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/graphics/rectangleAlignmentAndScalingExample/src"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/graphics/rectangleAlignmentAndScalingExample/src/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/graphics/rectangleAlignmentAndScalingExample/src/ofApp.cpp"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/graphics/rectangleAlignmentAndScalingExample/src/ofApp.cpp" . 3697)
+ ("/home/aris/Code/oF_apps/mySketch/src/ofSketch.h" . 928)
+ ("/home/aris/Code/oF_apps/mySketch/src/ofSketch.cpp" . 828)
+ ("/home/aris/Code/oF_apps/sketchGUI/src/ofSketch.h" . 2030)
+ ("/home/aris/Code/oF_apps/sketch/src/ofSketch.h" . 567)
+ ("/home/aris/Code/oF_apps/smooth3dLine/"
+  (dired-filename . "/home/aris/Code/oF_apps/smooth3dLine/src"))
+ ("/home/aris/Code/oF_apps/smooth3dLine/src/ofApp.cpp" . 245)
+ ("/home/aris/Code/oF_apps/smooth3dLine/src/"
+  (dired-filename . "/home/aris/Code/oF_apps/smooth3dLine/src/ofApp.h"))
+ ("/home/aris/Code/oF_apps/smooth3dLine/src/ofApp.h" . 538)
+ ("/home/aris/Code/oF_apps/sketchGUI/src/main.cpp" . 455)
+ ("/home/aris/Code/oF_apps/typoGreekParticlesOscSendReceive/obj/"
+  (dired-filename . "/home/aris/Code/oF_apps/typoGreekParticlesOscSendReceive/obj/linux64"))
+ ("/home/aris/Code/oF_apps/smooth3dLine/src/main.cpp" . 41)
+ ("/home/aris/Code/oF_apps/typoGreek/src/"
+  (dired-filename . "/home/aris/Code/oF_apps/typoGreek/src/main.cpp"))
+ ("/home/aris/Code/oF_apps/typoGreek/"
+  (dired-filename . "/home/aris/Code/oF_apps/typoGreek/src"))
+ ("/home/aris/Code/oF_apps/typoGreek/src/main.cpp" . 41)
+ ("/home/aris/Code/oF_apps/typoExample/src/main.cpp" . 41)
+ ("/home/aris/Code/oF_apps/OF_GenerativeTypography/AggregateParticles/src/" . 488)
+ ("/home/aris/Code/oF_apps/OF_GenerativeTypography/AggregateParticles/"
+  (dired-filename . "/home/aris/Code/oF_apps/OF_GenerativeTypography/AggregateParticles/src"))
+ ("/home/aris/Code/oF_apps/typoGreekParticles/src/main.cpp" . 146)
+ ("/home/aris/Code/oF_apps/typoGreekParticles/src/ofApp.h" . 443)
+ ("/home/aris/Code/oF_apps/typoGreekParticles/src/Particle.h" . 343)
+ ("/home/aris/Code/oF_apps/typoGreekParticles/src/ofApp.cpp" . 696)
+ ("/home/aris/Code/oF_apps/typoGreekParticles/src/Particle.cpp" . 256)
+ ("/home/aris/Code/oF_apps/typoGreekParticles/bin/"
+  (dired-filename . "/home/aris/Code/oF_apps/typoGreekParticles/bin/data"))
+ ("/home/aris/Code/oF_apps/OF_GenerativeTypography/"
+  (dired-filename . "/home/aris/Code/oF_apps/OF_GenerativeTypography/GradientCutout"))
+ ("/home/aris/Code/oF_apps/typoGreekParticles/src/"
+  (dired-filename . "/home/aris/Code/oF_apps/typoGreekParticles/src/Particle.cpp"))
+ ("/home/aris/Code/oF_apps/typoGreekParticles/"
+  (dired-filename . "/home/aris/Code/oF_apps/typoGreekParticles/src"))
+ ("/home/aris/Code/oF_apps/README.org" . 11)
+ ("/home/aris/Code/oF_apps/.gitignore" . 93)
+ ("/home/aris/Code/oF_apps/smooth3dLine/Makefile" . 432)
+ ("/home/aris/Code/oF_apps/typoGreek/src/ofApp.h" . 561)
+ ("/home/aris/Code/oF_apps/typoGreek/src/ofApp.cpp" . 1067)
+ ("/home/aris/.emacs.d/elpa/yasnippet-snippets-20191210.1511/snippets/org-mode/tweet" . 51)
+ ("/home/aris/.emacs.d/elpa/yasnippet-snippets-20191210.1511/snippets/org-mode/"
+  (dired-filename . "/home/aris/.emacs.d/elpa/yasnippet-snippets-20191210.1511/snippets/org-mode/author"))
+ ("/home/aris/.emacs.d/elpa/yasnippet-snippets-20191210.1511/snippets/emacs-lisp-mode/"
+  (dired-filename . "/home/aris/.emacs.d/elpa/yasnippet-snippets-20191210.1511/snippets/emacs-lisp-mode/add-hook"))
+ ("/home/aris/Documents/02.GetIn/yasnippets/"
+  (dired-filename . "/home/aris/Documents/02.GetIn/yasnippets/hugo-tweet"))
+ ("/home/aris/Documents/02.GetIn/yasnippets/org-mode/hugo-tweet" . 56)
+ ("/home/aris/Documents/02.GetIn/yasnippets/hugo-tweet" . 56)
+ ("/home/aris/.emacs.d/elpa/yasnippet-snippets-20191210.1511/yasnippet-snippets-autoloads.el" . 751)
+ ("/home/aris/.emacs.d/elpa/yasnippet-20191213.2101/yasnippet-autoloads.el" . 1675)
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/graphics/polygonExample/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/graphics/polygonExample/src"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/testing/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/testing/1912141500"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/testing/1912141500/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/testing/1912141500/src"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/testing/1912141500/src/ofApp.cpp" . 182)
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/testing/1912141500/src/"
+  (dired-filename . "/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/testing/1912141500/src/main.cpp"))
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/testing/1912141500/src/main.cpp" . 150)
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/graphics/polygonExample/src/ofApp.cpp" . 1379)
+ ("/home/aris/Software/oF/of_v0.11.0_linux64gcc6_release/examples/graphics/polygonExample/src/" . 401)
+ ("/home/aris/.emacs.d/elpa/irony-eldoc-20170502.1908/irony-eldoc-autoloads.el" . 1052)
+ ("/home/aris/.emacs.d/elpa/company-irony-20190124.2346/company-irony-autoloads.el" . 951)
+ ("/home/aris/.emacs.d/elpa/company-irony-c-headers-20151018.909/company-irony-c-headers-autoloads.el" . 693)
+ ("/home/aris/.emacs.d/elpa/company-20191213.2320/company-autoloads.el" . 12212)
+ ("/home/aris/.emacs.d/elpa/irony-20191009.2139/irony-autoloads.el" . 4873)
+ ("/home/aris/usr/local/bin/lockkbmouse" . 31)
+ ("/home/aris/.emacs.d/elpa/badger-theme-20140717.232/badger-theme-autoloads.el" . 589)
+ ("/home/aris/Documents/02.GetIn/"
+  (dired-filename . "/home/aris/Documents/02.GetIn/scripts"))
+ ("/home/aris/Documents/02.GetIn/scripts/"
+  (dired-filename . "/home/aris/Documents/02.GetIn/scripts/publish-local-xoriopalio.sh"))
+ ("/home/aris/Documents/02.GetIn/scripts/publish-local-xoriopalio.sh" . 11)
+ ("/home/aris/Sites/xoriopalio/content/post/avocado.md" . 750)
+ ("/home/aris/.emacs.d/elpa/markdown-mode-20190802.2215/markdown-mode-autoloads.el" . 1171)
+ ("/home/aris/Desktop/temp/dotEmacs/personal/aris.org" . 16254)
+ ("/home/aris/.emacs.d/elpa/ox-hugo-20191204.1552/ox-hugo-autoloads.el" . 9683)
+ ("/home/aris/.emacs.d/elpa/exec-path-from-shell-20190426.2227/exec-path-from-shell-autoloads.el" . 1420))

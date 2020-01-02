@@ -1,0 +1,40 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("ofMain.h" include nil nil [14 33])
+            ("ofxOscSubscriber.h" include nil nil [34 63])
+            ("ofApp" type
+               (:superclasses 
+                  ( ("ofBaseApp" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [146 153])
+                    ("setup" function (:type "void") (reparse-symbol classsubparts) [156 515])
+                    ("update" function (:type "void") (reparse-symbol classsubparts) [518 537])
+                    ("draw" function (:type "void") (reparse-symbol classsubparts) [540 829])
+                    ("private" label nil (reparse-symbol classsubparts) [832 840])
+                    ("p" variable (:type ("ofPoint" type (:type "class") nil nil)) (reparse-symbol classsubparts) [843 853])
+                    ("fps" variable (:type "float") (reparse-symbol classsubparts) [856 866])
+                    ("rectX" variable (:type "int") (reparse-symbol classsubparts) [869 900])
+                    ("rectY" variable (:type "int") (reparse-symbol classsubparts) [869 900])
+                    ("rectW" variable (:type "int") (reparse-symbol classsubparts) [869 900])
+                    ("rectH" variable (:type "int") (reparse-symbol classsubparts) [869 900])
+                    ("myRect" variable (:type ("ofRectangle" type (:type "class") nil nil)) (reparse-symbol classsubparts) [903 922]))                  
+                :type "class")
+                nil [112 925])
+            ("main" function (:type "int") nil [927 1004]))          
+      :file "ofApp.cpp"
+      :pointmax 1005
+      :fsize 1004
+      :lastmodtime '(24072 48718 797188 136000)
+      :unmatched-syntax nil))
+  :file "!home!aris!Code!oF_apps!katerina!drawingApp!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
