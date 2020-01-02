@@ -1,5 +1,20 @@
 ;;; -*- coding: utf-8 -*-
-(("/home/aris/Code/oF_apps/"
+(("/home/aris/.emacs.d/url/" . 171)
+ ("/home/aris/.emacs.d/savefile/"
+  (dired-filename . "/home/aris/.emacs.d/savefile/semanticdb"))
+ ("/home/aris/.emacs.d/savefile/semanticdb/" . 188)
+ ("/home/aris/.emacs.d/sample/"
+  (dired-filename . "/home/aris/.emacs.d/sample/prelude-modules.el"))
+ ("/home/aris/.emacs.d/personal/aris.org" . 17830)
+ ("/home/aris/.emacs.d/personal/"
+  (dired-filename . "/home/aris/.emacs.d/personal/aris.org"))
+ ("/home/aris/.emacs.d/.gitignore" . 334)
+ ("/home/aris/.emacs.d/elpa/"
+  (dired-filename . "/home/aris/.emacs.d/elpa/ace-window-20191022.1203"))
+ ("/home/aris/.emacs.d/"
+  (dired-filename . "/home/aris/.emacs.d/snippets"))
+ ("/home/aris/.emacs.d/savefile/recentf" . 7503)
+ ("/home/aris/Code/oF_apps/"
   (dired-filename . "/home/aris/Code/oF_apps/recover"))
  ("/home/aris/Code/oF_apps/recover/"
   (dired-filename . "/home/aris/Code/oF_apps/recover/drawingApp"))
@@ -8,19 +23,11 @@
  ("/home/aris/Code/oF_apps/recover/drawingApp/src/"
   (dired-filename . "/home/aris/Code/oF_apps/recover/drawingApp/src/ofApp.cpp"))
  ("/home/aris/Code/oF_apps/recover/drawingApp/src/ofApp.cpp" . 514)
- ("/home/aris/.emacs.d/personal/aris.org" . 17830)
- ("/home/aris/.emacs.d/personal/"
-  (dired-filename . "/home/aris/.emacs.d/personal/aris.org"))
- ("/home/aris/.emacs.d/"
-  (dired-filename . "/home/aris/.emacs.d/init.el"))
- ("/home/aris/.emacs.d/savefile/recentf" . 7462)
  ("/home/aris/Documents/02.GetIn/org-files/xp.org" . 506648)
  ("/home/aris/Documents/02.GetIn/org-files/sc.org" . 361)
  ("/home/aris/Documents/02.GetIn/org-files/chipis.org" . 13168)
  ("/home/aris/Documents/02.GetIn/org-files/"
   (dired-filename . "/home/aris/Documents/02.GetIn/org-files/body-health.org"))
- ("/home/aris/.emacs.d/elpa/"
-  (dired-filename . "/home/aris/.emacs.d/elpa/ace-window-20191022.1203"))
  ("/home/aris/Software/emacs_20200102/"
   (dired-filename . "/home/aris/Software/emacs_20200102/personal"))
  ("/home/aris/Code/oF_apps/recover/drawingApp/bin/"
