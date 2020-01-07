@@ -288,7 +288,7 @@ Returns list of properties that still must be filled in"
 (defun open-notes () (interactive) (find-file "~/Documents/02.GetIn/org-files/notes.org"))  (global-set-key (kbd "C-3") 'open-notes)
 (defun open-arisearch () (interactive) (find-file "~/Documents/02.GetIn/org-files/arisearch.org"))  (global-set-key (kbd "C-4") 'open-arisearch)
 (defun open-engineering () (interactive) (find-file "~/Documents/02.GetIn/org-files/engineering.org"))  (global-set-key (kbd "C-5") 'open-engineering)
-(defun open-bash-aliases () (interactive) (find-file "~/.bash_aliases"))  (global-set-key (kbd "C-6") 'open-bash-aliases)
+(defun open-bash-aliases () (interactive) (find-file "~/Documents/02.GetIn/scripts/bash-alias"))  (global-set-key (kbd "C-6") 'open-bash-aliases)
 (defun open-sc-file () (interactive) (find-file "~/Documents/02.GetIn/org-files/sc.org"))  (global-set-key (kbd "C-7") 'open-sc-file)
 (defun open-chipis () (interactive) (find-file "~/Documents/02.GetIn/org-files/chipis.org"))  (global-set-key (kbd "C-8") 'open-chipis)
 (defun open-ari-config () (interactive) (find-file "~/.emacs.d/personal/aris.org"))  (global-set-key (kbd "C-9") 'open-ari-config)
@@ -470,11 +470,10 @@ helm-imenu-fuzzy-match t)
 
 (helm-mode 1)
 
-(req-package projectile
-  :config
-  (progn
-    (projectile-global-mode)
-    ))
+(projectile-global-mode)
+(setq projectile-completion-system 'helm)
+(setq projectile-switch-project-action 'helm-projectile-find-file)
+(setq projectile-switch-project-action 'helm-projectile)
 
 (req-package rtags
   :config
