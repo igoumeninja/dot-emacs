@@ -404,6 +404,7 @@ Returns list of properties that still must be filled in"
 
 (require 'helm)
 (require 'helm-config)
+(require 'helm-projectile)
 
 ;; The default "C-x c" is quite close to "C-x C-c", which quits Emacs.
 ;; Changed to "C-c h". Note: We must set "C-c h" globally, because we
@@ -469,6 +470,10 @@ helm-imenu-fuzzy-match t)
 (helm-autoresize-mode 1)
 
 (helm-mode 1)
+
+(require 'ac-helm) ;; Not necessary if using ELPA package
+(global-set-key (kbd "C-:") 'ac-complete-with-helm)
+(define-key ac-complete-mode-map (kbd "C-:") 'ac-complete-with-helm)
 
 (projectile-global-mode)
 (setq projectile-completion-system 'helm)

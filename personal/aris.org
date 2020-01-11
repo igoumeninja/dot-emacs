@@ -312,6 +312,38 @@ Returns list of properties that still must be filled in"
 (add-to-list 'custom-theme-load-path "path/to/badger-theme-directory")
 (load-theme 'badger t)
 #+END_SRC
+* auto-commit function
+from https://www.reddit.com/r/emacs/comments/6ozhm8/emacs_auto_commit_with_magit/
+
+#+BEGIN_SRC
+(defun auto-commit
+  (interactive
+  (magit-call-git "add" ".")
+  (magit-call-git "commit" "-m" "the message")
+  (magit-refresh)
+))
+
+
+#+END_SRC
+(defun auto-commit-files (list)
+  (interactive
+    (list (list (buffer-file-name (current-buffer)))))
+  "LIST to be auto commit"
+  (while list
+    (let* ((file (car list))
+           (file-buffer (get-file-buffer file)))
+      (when file-buffer
+        (set-buffer file-buffer)
+        (when (magit-anything-modified-p nil file)
+          (magit-call-git "add" file)
+          (magit-call-git "commit" "-m" (concat file " update"))
+          (magit-call-git "push" "origin")
+          (magit-refresh)
+          (print (concat file "is pushed!!!")))))
+    (setq list (cdr list))))
+
+;; auto commit current buffer
+(global-set-key (kbd "C-j m") 'auto-commit-files)
 * Navigation-Commands-Files
 ** Agenda
  #+BEGIN_SRC emacs-lisp
@@ -515,6 +547,7 @@ https://tuhdo.github.io/helm-intro.html
 #+BEGIN_SRC emacs-lisp
 (require 'helm)
 (require 'helm-config)
+(require 'helm-projectile)
 
 ;; The default "C-x c" is quite close to "C-x C-c", which quits Emacs.
 ;; Changed to "C-c h". Note: We must set "C-c h" globally, because we
@@ -580,6 +613,12 @@ helm-imenu-fuzzy-match t)
 (helm-autoresize-mode 1)
 
 (helm-mode 1)
+#+END_SRC
+** ac-helm
+#+BEGIN_SRC emacs-lisp
+(require 'ac-helm) ;; Not necessary if using ELPA package
+(global-set-key (kbd "C-:") 'ac-complete-with-helm)
+(define-key ac-complete-mode-map (kbd "C-:") 'ac-complete-with-helm)
 #+END_SRC
 ** not WORKING
    -http://martinsosic.com/development/emacs/2017/12/09/emacs-cpp-ide.html
