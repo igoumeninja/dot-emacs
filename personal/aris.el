@@ -1,3 +1,30 @@
+(add-to-list 'load-path "~/.emacs.d/el-get/el-get")
+
+(unless (require 'el-get nil 'noerror)
+(with-current-buffer
+(url-retrieve-synchronously
+"https://raw.githubusercontent.com/dimitri/el-get/master/el-get-install.el")
+(goto-char (point-max))
+(eval-print-last-sexp)))
+
+(add-to-list 'el-get-recipe-path "~/.emacs.d/el-get-user/recipes")
+(el-get 'sync)
+
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+(require 'use-package-el-get)
+(setq use-package-always-ensure nil)
+(use-package-el-get-setup)
+
+(require 'req-package)
+
+(req-package use-package-el-get ;; prepare el-get support for use-package (optional)
+  :force t ;; load package immediately, no dependency resolution
+  :config
+  (add-to-list 'el-get-recipe-path "~/.emacs.d/el-get/el-get/recipes")
+  (el-get 'sync)
+  (use-package-el-get-setup))
+
 (defvar hugo-content-dir-mousikobostani "~/Music/mousikobostani.gitlab.io/content/post/"
   "Path to Mousiko Bostani Hugo's content directory")
 
@@ -322,10 +349,6 @@ Returns list of properties that still must be filled in"
 
 (show-paren-mode 1)
 
-(require 'google-c-style)
-(add-hook 'c-mode-common-hook 'google-set-c-style)
-(add-hook 'c-mode-common-hook 'google-make-newline-indent)
-
 (defun hsm () (interactive) (hs-minor-mode))
 (defun ha () (interactive) (hs-hide-all))
 (defun sa () (interactive) (hs-show-all))
@@ -337,49 +360,35 @@ Returns list of properties that still must be filled in"
 ;;(global-set-key (kbd "C-S-a") 'hs-show-all)
 ;;(global-set-key (kbd "C-S-g") 'hs-hide-all)
 
-(show-paren-mode 1)
+(add-to-list 'load-path
+              "~/Documents/02.GetIn/yasnippets/")
+(require 'yasnippet)
+(yas-global-mode 1)
 
-(add-to-list 'load-path "~/.emacs.d/el-get/el-get")
+(define-key global-map (kbd "C-c ;") 'iedit-mode)
 
-(unless (require 'el-get nil 'noerror)
-(with-current-buffer
-(url-retrieve-synchronously
-"https://raw.githubusercontent.com/dimitri/el-get/master/el-get-install.el")
-(goto-char (point-max))
-(eval-print-last-sexp)))
+(require 'auto-complete)
+(require 'auto-complete-config)
+(ac-config-default)
 
-(add-to-list 'el-get-recipe-path "~/.emacs.d/el-get-user/recipes")
-(el-get 'sync)
-
-(require 'use-package-el-get)
-(setq use-package-always-ensure nil)
-(use-package-el-get-setup)
-
-;;  then
-
-;;(use-package cool-fancy-package
-;;  :el-get t)
-
-(require 'req-package)
-
-(req-package use-package-el-get ;; prepare el-get support for use-package (optional)
-  :force t ;; load package immediately, no dependency resolution
+(use-package google-c-style
   :config
-  (add-to-list 'el-get-recipe-path "~/.emacs.d/el-get/el-get/recipes")
-  (el-get 'sync)
-  (use-package-el-get-setup))
+  (add-hook 'c-mode-common-hook 'google-set-c-style)
+  (add-hook 'c-mode-common-hook 'google-make-newline-indent)
+)
 
-(req-package company
-  :config
-  (progn
-    (add-hook 'after-init-hook 'global-company-mode)
-    (global-set-key (kbd "M-/") 'company-complete-common-or-cycle)
-    (setq company-idle-delay 0)))
+(projectile-global-mode)
+(setq projectile-completion-system 'helm)
+(setq projectile-switch-project-action 'helm-projectile-find-file)
+(setq projectile-switch-project-action 'helm-projectile)
 
-(req-package flycheck
-  :config
-  (progn
-    (global-flycheck-mode)))
+(use-package flycheck
+  :ensure t
+  :pin melpa
+  :diminish flycheck-mode
+  :init (global-flycheck-mode)
+  (setq flycheck-check-syntax-automatically '(save mode-enabled))
+  )
 
 (defun my:flymake-google-init ()
  (require 'flymake-google-cpplint)
@@ -390,17 +399,6 @@ Returns list of properties that still must be filled in"
 
 (add-hook 'c-mode-hook 'my:flymake-google-init)
 (add-hook 'c++-mode-hook 'my:flymake-google-init)
-
-(define-key global-map (kbd "C-c ;") 'iedit-mode)
-
-(add-to-list 'load-path
-              "~/Documents/02.GetIn/yasnippets/")
-(require 'yasnippet)
-(yas-global-mode 1)
-
-(require 'auto-complete)
-(require 'auto-complete-config)
-(ac-config-default)
 
 (require 'helm)
 (require 'helm-config)
@@ -447,9 +445,7 @@ Returns list of properties that still must be filled in"
 (setq helm-M-x-fuzzy-match t) ;; optional fuzzy matching for helm-M-x
 
 (global-set-key (kbd "C-x C-f") 'helm-find-files)
-
 (global-set-key (kbd "M-y") 'helm-show-kill-ring)
-
 (global-set-key (kbd "C-x b") 'helm-mini)
 (setq helm-buffers-fuzzy-matching t
 helm-recentf-fuzzy-match t)
@@ -474,11 +470,6 @@ helm-imenu-fuzzy-match t)
 (require 'ac-helm) ;; Not necessary if using ELPA package
 (global-set-key (kbd "C-:") 'ac-complete-with-helm)
 (define-key ac-complete-mode-map (kbd "C-:") 'ac-complete-with-helm)
-
-(projectile-global-mode)
-(setq projectile-completion-system 'helm)
-(setq projectile-switch-project-action 'helm-projectile-find-file)
-(setq projectile-switch-project-action 'helm-projectile)
 
 (req-package rtags
   :config
@@ -532,3 +523,68 @@ helm-imenu-fuzzy-match t)
     (add-hook 'c-mode-hook #'setup-flycheck-rtags)
     (add-hook 'c++-mode-hook #'setup-flycheck-rtags)
     ))
+
+; Can't use use-package here, in case it's not installed yet which it wouldn't the first time this is run
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+
+; use-package bootstrapping
+(unless (package-installed-p 'use-package)
+(package-refresh-contents)
+  (package-install 'use-package)
+  )
+
+(eval-when-compile (require 'use-package)) ;; use-package.el not needed at runtime
+(use-package diminish :defer t)                ;; if you use :diminish
+(use-package bind-key :defer t)                ;; if you use any :bind variant
+
+
+
+(use-package company
+  :ensure t
+  :init (global-company-mode)
+  :bind (("<C-tab>" . company-complete))
+:diminish company-mode)
+
+
+
+;(use-package rtags
+;  :pin melpa
+;  :after company
+;  :config
+;  (setq rtags-autostart-diagnostics t
+;	 rtags-completions-enabled nil)
+;  (push 'company-rtags company-backends)
+;  (rtags-diagnostics)
+
+;  (add-hook 'c-mode-common-hook 'rtags-start-process-unless-running)
+;  )
+
+(use-package modern-cpp-font-lock
+  :pin melpa
+  :ensure t
+  :diminish
+  :config
+  (modern-c++-font-lock-global-mode t)
+)
+
+
+(use-package irony
+  :ensure t
+  :pin melpa
+  :diminish irony-mode
+  :config
+  (add-hook 'c++-mode-hook 'irony-mode)
+  (add-hook 'c-mode-hook 'irony-mode)
+  (add-hook 'objc-mode-hook 'irony-mode)
+
+  (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
+
+  (use-package flycheck-irony :ensure t)
+
+  (use-package company-irony :ensure t
+    :config (add-to-list 'company-backends 'company-irony))
+
+  (add-hook 'flycheck-mode 'flycheck-irony-setup)
+
+)

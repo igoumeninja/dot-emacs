@@ -1,0 +1,38 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/aris/Code/oF_apps/recover/drawingApp/" . "src/")
+ ("/home/aris/Code/oF_apps/recover/" . "drawingApp/")
+ ("/home/aris/Code/oF_apps/" . "recover/")
+ ("/home/aris/Code/" . "oF_apps/")
+ ("/home/aris/" . "Code/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/aris/Code/oF_apps/recover/drawingApp/src/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ 
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/aris/Code/oF_apps/recover/drawingApp/src/" (24093 42388 318328 815000) "Particle.cpp" "ofSketch.cpp" "ofApp.h" "../" "./" "main.cpp" "Particle.h" "ofApp.cpp" "ofSketch.h")
+
+ ("/home/aris/Code/oF_apps/recover/drawingApp/" (24072 48592 53473 288000) "drawingApp.qbs" "bin/" "Makefile" "../" "./" "obj/" "addons.make" "config.make" "src/")
+
+ ("/home/aris/Code/oF_apps/recover/" (24088 28692 387826 944000) "../" "controlApp/" "./" "drawingApp/" "scCode/")
+
+ ("/home/aris/Code/oF_apps/" (24087 35256 879717 964000) "ofxWarpExample/" "testAddons/" "sketchGUI/" "mySketch/" "sketch/" "typoGreekParticles/" "typoGreekParticlesOscSendReceive/" "sketching/" "../" "typoExample/" "./" ".dir-locals.el" "katerina/" "recover/" "README.org" "smooth3dLine/" "typoGreek/" "testPubSubOsc/" "OF_GenerativeTypography/" ".gitignore" ".git/" "mappingProjectionWarp/" "machineListening/")
+
+ ("/home/aris/Code/" (24061 10407 588528 273000) "../" "oF_apps/" "./" "sc/" "livePerformance-master/")
+
+ ("/home/aris/" (24094 11193 966730 439000) ".bash_history" ".gitconfig" ".cache/" "usr/" ".bash_logout" "Code/" "Pictures/" ".wget-hsts" ".config/" ".ICEauthority" ".local/" "../" "Downloads/" ".sudo_as_admin_successful" "Zotero/" ".zotero/" ".emacs.d/" "Music/" "Software/" "200114_.emacs.d.zip" "./" ".ssh/" ".dbus/" "examples.desktop" "Public/" "Templates/" "snap/" ".profile" "Desktop/" "Sites/" "Videos/" "Databases.db" "Release.key" ".thunderbird/" ".bashrc" "Projects/" ".w3m/" ".gnupg/" "Documents/" ".mozilla/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
