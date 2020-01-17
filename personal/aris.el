@@ -526,7 +526,12 @@ helm-imenu-fuzzy-match t)
 
 ; Can't use use-package here, in case it's not installed yet which it wouldn't the first time this is run
 (require 'package)
+(setq package-enable-at-startup nil)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+(package-initialize)
+
+(require 'company)
+(global-company-mode 1)
 
 ; use-package bootstrapping
 (unless (package-installed-p 'use-package)
