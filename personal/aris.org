@@ -354,6 +354,7 @@ Returns list of properties that still must be filled in"
  #+BEGIN_SRC emacs-lisp
  ;(add-to-list 'custom-theme-load-path "path/to/badger-theme-directory")
  ;(load-theme 'badger t)
+;(load-theme 'darkokai t)
  (load-theme 'dracula t)
  #+END_SRC
 * Navigation-Commands-Files
@@ -415,6 +416,11 @@ Returns list of properties that still must be filled in"
  #+BEGIN_SRC emacs-lisp
 (windmove-default-keybindings 'control)
 #+END_SRC
+* Save the last session
+#+BEGIN_SRC emacs-lisp
+(desktop-save-mode 1)
+#+END_SRC
+
 * Show Parenthesis
 
 #+BEGIN_SRC emacs-lisp
