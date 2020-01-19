@@ -301,8 +301,13 @@ Returns list of properties that still must be filled in"
  (with-eval-after-load 'ox
    (require 'ox-hugo))
 
-(add-to-list 'custom-theme-load-path "path/to/badger-theme-directory")
-(load-theme 'badger t)
+(use-package nlinum
+  :config
+  (global-nlinum-mode))
+
+;(add-to-list 'custom-theme-load-path "path/to/badger-theme-directory")
+;(load-theme 'badger t)
+(load-theme 'dracula t)
 
 (setq org-agenda-files (list "~/Documents/02.GetIn/org-files/chipis.org" "~/Documents/02.GetIn/org-files/mb.org" "~/Documents/02.GetIn/org-files/xp.org" "~/Documents/02.GetIn/org-files/notes.org" "~/Documents/02.GetIn/org-files/engineering.org" "~/.emacs.d/personal/aris.org"))
 
@@ -349,16 +354,15 @@ Returns list of properties that still must be filled in"
 
 (show-paren-mode 1)
 
-(defun hsm () (interactive) (hs-minor-mode))
-(defun ha () (interactive) (hs-hide-all))
-(defun sa () (interactive) (hs-show-all))
-(defun hb () (interactive) (hs-hide-block))
-(defun sb () (interactive) (hs-show-block))
-;;(hs-minor-mode)
-;;(global-set-key (kbd "C-S-s") 'hs-show-block)
-;;(global-set-key (kbd "C-S-h") 'hs-hide-block)
-;;(global-set-key (kbd "C-S-a") 'hs-show-all)
-;;(global-set-key (kbd "C-S-g") 'hs-hide-all)
+(add-hook 'prog-mode-hook
+          (lambda () (yafolding-mode)))
+(yafolding-mode 1)
+(defvar yafolding-mode-map
+  (let ((map (make-sparse-keymap)))
+    (define-key map (kbd "<C-S-return>") #'yafolding-hide-parent-element)
+    (define-key map (kbd "<C-M-return>") #'yafolding-toggle-all)
+    (define-key map (kbd "<C-return>") #'yafolding-toggle-element)
+    map))
 
 (add-to-list 'load-path
               "~/Documents/02.GetIn/yasnippets/")
