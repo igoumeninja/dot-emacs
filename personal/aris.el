@@ -309,6 +309,8 @@ Returns list of properties that still must be filled in"
  ;(load-theme 'badger t)
 ;(load-theme 'darkokai t)
  (load-theme 'dracula t)
+;;(require 'color-theme-sanityinc-tomorrow)
+;;(load-theme 'color-theme-sanityinc-tomorrow t)
 
 (setq org-agenda-files (list "~/Documents/02.GetIn/org-files/chipis.org" "~/Documents/02.GetIn/org-files/mb.org" "~/Documents/02.GetIn/org-files/xp.org" "~/Documents/02.GetIn/org-files/notes.org" "~/Documents/02.GetIn/org-files/engineering.org" "~/.emacs.d/personal/aris.org"))
 
