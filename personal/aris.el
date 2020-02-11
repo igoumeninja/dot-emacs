@@ -317,16 +317,16 @@ Returns list of properties that still must be filled in"
 
 (global-set-key (kbd "C-x a") 'org-agenda)
 
-(defun open-mousiko-bostani () (interactive) (find-file "~/Documents/02.GetIn/org-files/mb.org"))  (global-set-key (kbd "C-0") 'open-mousiko-bostani)
-(defun open-xorio-palio () (interactive) (find-file "~/Documents/02.GetIn/org-files/xp.org"))  (global-set-key (kbd "C-1") 'open-xorio-palio)
-(defun open-sunson () (interactive) (find-file "~/Documents/02.GetIn/org-files/sunson.org"))  (global-set-key (kbd "C-2") 'open-sunson)
-(defun open-notes () (interactive) (find-file "~/Documents/02.GetIn/org-files/notes.org"))  (global-set-key (kbd "C-3") 'open-notes)
-(defun open-arisearch () (interactive) (find-file "~/Documents/02.GetIn/org-files/arisearch.org"))  (global-set-key (kbd "C-4") 'open-arisearch)
-(defun open-engineering () (interactive) (find-file "~/Documents/02.GetIn/org-files/engineering.org"))  (global-set-key (kbd "C-5") 'open-engineering)
-(defun open-bash-aliases () (interactive) (find-file "~/Documents/02.GetIn/scripts/bash-alias"))  (global-set-key (kbd "C-6") 'open-bash-aliases)
-(defun open-sc-file () (interactive) (find-file "~/Documents/02.GetIn/org-files/sc.org"))  (global-set-key (kbd "C-7") 'open-sc-file)
-(defun open-chipis () (interactive) (find-file "~/Documents/02.GetIn/org-files/chipis.org"))  (global-set-key (kbd "C-8") 'open-chipis)
-(defun open-ari-config () (interactive) (find-file "~/.emacs.d/personal/aris.org"))  (global-set-key (kbd "C-9") 'open-ari-config)
+(defun open-mousiko-bostani () (interactive) (find-file "~/Documents/02.GetIn/org-files/mb.org"))       (global-set-key (kbd "C-0") 'open-mousiko-bostani)
+ (defun open-xorio-palio () (interactive) (find-file "~/Documents/02.GetIn/org-files/xp.org"))           (global-set-key (kbd "C-1") 'open-xorio-palio)
+ (defun open-sunson () (interactive) (find-file "~/Documents/02.GetIn/org-files/sunson.org"))            (global-set-key (kbd "C-2") 'open-sunson)
+ (defun open-notes () (interactive) (find-file "~/Documents/02.GetIn/org-files/notes.org"))              (global-set-key (kbd "C-3") 'open-notes)
+ (defun open-arisearch () (interactive) (find-file "~/Documents/02.GetIn/org-files/arisearch.org"))      (global-set-key (kbd "C-4") 'open-arisearch)
+ (defun open-engineering () (interactive) (find-file "~/Documents/02.GetIn/org-files/engineering.org"))  (global-set-key (kbd "C-5") 'open-engineering)
+ (defun open-bash-aliases () (interactive) (find-file "~/Documents/02.GetIn/scripts/bash-alias"))        (global-set-key (kbd "C-6") 'open-bash-aliases)
+ (defun open-sc-file () (interactive) (find-file "~/Documents/02.GetIn/org-files/sc.org"))               (global-set-key (kbd "C-7") 'open-sc-file)
+ (defun open-chipis () (interactive) (find-file "~/Documents/02.GetIn/org-files/chipis.org"))            (global-set-key (kbd "C-8") 'open-chipis)
+ (defun open-ari-config () (interactive) (find-file "~/.emacs.d/personal/aris.org"))                     (global-set-key (kbd "C-9") 'open-ari-config)
 
 (defun mousiko () (interactive) (find-file "~/Music/mousikobostani.gitlab.io/config.toml"))
 (defun xorio () (interactive) (find-file "~/Sites/xoriopalio/config.toml"))
@@ -354,6 +354,14 @@ Returns list of properties that still must be filled in"
 (global-set-key (kbd "M-1") 'visual-line-mode)
 
 (windmove-default-keybindings 'control)
+
+(fset 'folding
+   (lambda (&optional arg) "Keyboard macro." (interactive "p") (kmacro-exec-ring-item (quote ([1 C-return down] 0 "%d")) arg)))
+ ;;(global-set-key (kbd "C-'") 'folding)
+
+(fset 'folding-trick
+   (lambda (&optional arg) "Keyboard macro." (interactive "p") (kmacro-exec-ring-item (quote ([19 47 47 45 C-return] 0 "%d")) arg)))
+ (global-set-key (kbd "C-'") 'folding-trick)
 
 (desktop-save-mode 1)
 
