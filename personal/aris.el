@@ -361,7 +361,10 @@ Returns list of properties that still must be filled in"
 
 (fset 'folding-trick
    (lambda (&optional arg) "Keyboard macro." (interactive "p") (kmacro-exec-ring-item (quote ([19 47 47 45 C-return] 0 "%d")) arg)))
- (global-set-key (kbd "C-'") 'folding-trick)
+
+(fset 'folding-trick-3
+   (lambda (&optional arg) "Keyboard macro." (interactive "p") (kmacro-exec-ring-item (quote ([134217788 21 50 48 134217848 102 111 108 100 105 110 103 45 116 114 105 99 107 return] 0 "%d")) arg)))
+ (global-set-key (kbd "C-'") 'folding-trick-3)
 
 (desktop-save-mode 1)
 

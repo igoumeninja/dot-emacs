@@ -1,4 +1,6 @@
-((("ofGetScreenWidth" .
+((("particleView" .
+   [1 0 0 0 0 0 0 0 1 0 0 0])
+  ("ofGetScreenWidth" .
    [0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0])
   ("letterTask" .
    [0 0 1 0 0 0 1 0 0 0])
@@ -7,7 +9,7 @@
   ("nums" .
    [1 0 0 0])
   ("m" .
-   [2])
+   [3])
   ("ttf" .
    [4 0 0])
   ("GLUT_SINGLE" .
